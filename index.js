@@ -42,6 +42,23 @@ function theBeatlesPlay(musicians, instruments){
 /////////////////////////////////////////////////////////
 
 
+function johnLennonFacts(facts){
+  const yelledFacts = []
+
+  let i = 0
+  while (i < facts.length) {
+    yelledFacts.push(`${facts[i]}!!!`)
+    i++
+  }
+
+  return yelledFacts
+}
+
+
+
+
+
+
 
 // SOLUTION:
 // function johnLennonFacts(facts) {
